@@ -7,17 +7,7 @@
   <link rel="icon" href="https://fav.farm/🔥" />
 </head>
 <body>
-
-  <div class="Credits">
-    <h1>Made by GrowWithTalha 💜</h1>
-    <div class="links">
-      <a href="https://growwithtalha.vercel.app/">Portfolio</a>
-      <a href="https://github.com/GrowWidTalha">Github</a>
-      <a href="https://www.linkedin.com/in/growwithtalha-webdeveloper">Linkedin</a>
-      <a href="https://twitter.com/GrowWithTalha">Twitter</a>
-      <a href="mailto:growwithtalha@outlook.com">Contact</a>
-    </div>
-  </div>
+  <credits-component></credits-component>
 
   <div class="keys">
     
@@ -70,6 +60,9 @@
   <audio data-key="75" src="sounds/tom.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
+
+
+  <script src="https://cdn.jsdelivr.net/gh/GrowWidTalha/credit-component-cdn@master/credit-component.js"></script>
 <script>
   const playSound = (e) => {
     const audio = document.querySelector(`audio[data-key='${e.keyCode}']`);

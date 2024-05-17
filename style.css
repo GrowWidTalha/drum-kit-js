@@ -49,26 +49,3 @@ kbd {
   letter-spacing: .1rem;
   color: #ffc600;
 }
-
-.Credits {
-  min-height: 10vh;
-  box-shadow: 10px 10px 30px black;
-  background-color: white;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  justify-content: space-between;
-  margin: 2rem 4rem ;
-}
-.links{
-  display: flex;
-  
-
-}
-.links > a{
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  margin: 0 4.5px;
-}
